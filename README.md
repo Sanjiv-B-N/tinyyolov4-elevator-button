@@ -3,7 +3,7 @@
 <p> Before following along on this tutorial refer to this page to check if you have set up your Jetson Nano properly. If not this will lead to a lot of errors in the future steps of this turorial:<br><br>
   https://github.com/Sanjiv-B-N/jetson-nano-setup 
   <br></p>
-## Install Darkent
+  ## Install Darknet
 <p> we need darkent to run tinyYOLOv4 on the Jetson Nano. Run the following  on the command line: <br><br>
   git clone https://github.com/AlexeyAB/darknet.git<br>
   cd darknet<br>
