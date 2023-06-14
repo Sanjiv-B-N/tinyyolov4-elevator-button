@@ -21,7 +21,7 @@
 ## Now install weitghts and config file of the retrained tinyYOLOv4
 
 <p> We have trained the tinyYOLOv4 on the Elevator button dataset. I have uploaded the config file and the retrained weights in this github. Download them and place them in your darknet directory. Now run this command to have object detection on the Jetson Nano! run this on the commandline in th darkenet directory:<br><br>
-  ./darknet detect cfg/yolov3.cfg yolov3.weights data/image.jpg<br><br>
+  ./darknet detect yolov4-tiny-custom.cfg yolov4-tiny-custom_best.weights image.jpg<br><br>
   
   Here on this line add the correct paths to the weigths the config file and test image and then you'll get the output!</p>
   
